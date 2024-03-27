@@ -1,0 +1,9 @@
+export { default as MainRouter } from './MainRouter';
+export { default as Dashboard } from './Dashboard';
+export { default as Products } from './Products';
+export { default as Vendors } from './Vendors';
+export { default as Purchase } from './Purchase';
+export { default as Customers } from './Customers';
+export { default as Sales } from './Sales';
+export { default as Inventory } from './Inventory';
+export { default as Login } from './Login';
