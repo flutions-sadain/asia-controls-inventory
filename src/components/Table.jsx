@@ -29,7 +29,7 @@ const Table = ({ data, columns, actions }) => {
                 <td className="px-6 py-4 border">
                   <div className="flex justify-start items-center gap-2">
                     {actions.map((action, index) => (
-                      <button key={index} className={`px-3 py-2 bg-${action.color}-700 text-base text-white rounded-sm font-medium`}>
+                      <button key={index} className={`px-3 py-2 bg-${action.color}-700 text-base text-white rounded-sm font-medium`} onClick={() => action.onClick(item)}>
                         {action.label}
                       </button>
                     ))}

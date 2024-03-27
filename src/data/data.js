@@ -4,25 +4,28 @@ export const productsData = [
     {
       id: 1,
       title: "Laptop",
-      color: "1001",
-      openingQty: 50,
-      balance: "$2999",
+      productCode: "1001",
+      details: "Get started with this example Product",
+      openingQty: "50",
+      closingQty: "$2999",
       image: productImage
     },
     {
       id: 2,
       title: "Bottle",
-      color: "1002",
+      productCode: "1002",
+      details: "Get started with this example Product",
       openingQty: 30,
-      balance: "$4999",
+      closingQty: "$4999",
       image: productImage
     },
     {
       id: 3,
       title: "Bag",
-      color: "1003",
+      productCode: "1003",
+      details: "Get started with this example Product",
       openingQty: 60,
-      balance: "$1299",
+      closingQty: "$1299",
       image: productImage
     }
   ];
@@ -30,21 +33,21 @@ export const productsData = [
   export const vendorsData = [
     {
       id: 1,
-      product: "Item 1",
+      product: "Laptop",
       name: "Sadain",
       contact: "9890878065",
       address: "123, Street, city"
     },
     {
       id: 2,
-      product: "Item 2",
+      product: "Bottle",
       name: "Kihzer",
       contact: "9890878065",
       address: "123, Street, city"
     },
     {
       id: 3,
-      product: "Item 3",
+      product: "Bag",
       name: "Adnan",
       contact: "9890878065",
       address: "123, Street, city"
@@ -55,21 +58,21 @@ export const productsData = [
     {
       id: 1,
       vendor: "Sadain",
-      product: "Item 1",
+      product: "Laptop",
       qty: "9890878065",
       date: "Oct 31, 2020, 6;39 a.m"
     },
     {
       id: 2,
       vendor: "Kihzer",
-      product: "Item 2",
+      product: "Bottle",
       qty: "9890878065",
       date: "Oct 31, 2020, 6;39 a.m"
     },
     {
       id: 3,
       vendor: "Adnan",
-      product: "Item 3",
+      product: "Bag",
       qty: "9890878065",
       date: "Oct 31, 2020, 6;39 a.m"
     }
@@ -100,24 +103,24 @@ export const productsData = [
     {
       id: 1,
       customer: "Sadain",
-      product: "Item 1",
-      qty: "9890878065",
+      product: "Laptop",
+      qty: "10",
       paymentType: "Cash",
       date: "Oct 31, 2020, 6;39 a.m"
     },
     {
       id: 2,
       customer: "Kihzer",
-      product: "Item 2",
-      qty: "9890878065",
+      product: "Bottle",
+      qty: "10",
       paymentType: "Cash",
       date: "Oct 31, 2020, 6;39 a.m"
     },
     {
       id: 3,
       customer: "Adnan",
-      product: "Item 3",
-      qty: "9890878065",
+      product: "Bag",
+      qty: "18",
       paymentType: "Cash",
       date: "Oct 31, 2020, 6;39 a.m"
     }

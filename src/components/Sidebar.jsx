@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Sidebar = ({ isOpen }) => {
   return (
@@ -7,44 +8,44 @@ const Sidebar = ({ isOpen }) => {
         <div class="h-full px-3 pb-4 overflow-y-auto bg-white ">
           <ul class="space-y-2 font-medium">
             <li>
-              <a href="/" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="ms-3">Dashboard</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/products" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/products" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/vendors" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/vendors" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Vendors</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/purchase" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/purchase" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Purchase</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/customers" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/customers" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Customers</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/sales" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/sales" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Sales</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/inventory" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/inventory" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Inventory</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/login" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
+              <Link to="/login" class="flex items-center p-2 text-gray-900 border-b-2  hover:bg-gray-100 group">
                 <span class="flex-1 ms-3 whitespace-nowrap">Logout</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
