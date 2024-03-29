@@ -7,7 +7,7 @@ export const productsData = [
       productCode: "1001",
       details: "Get started with this example Product",
       openingQty: "50",
-      closingQty: "$2999",
+      closingQty: "2999",
       image: productImage
     },
     {
@@ -15,8 +15,8 @@ export const productsData = [
       title: "Bottle",
       productCode: "1002",
       details: "Get started with this example Product",
-      openingQty: 30,
-      closingQty: "$4999",
+      openingQty: "30",
+      closingQty: "999",
       image: productImage
     },
     {
@@ -24,8 +24,8 @@ export const productsData = [
       title: "Bag",
       productCode: "1003",
       details: "Get started with this example Product",
-      openingQty: 60,
-      closingQty: "$1299",
+      openingQty: "60",
+      closingQty: "1299",
       image: productImage
     }
   ];
